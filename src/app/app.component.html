@@ -5,7 +5,6 @@
       font-family: sans-serif;
       font-size: 1.2rem;
       background-color: #FFF;
-      border: solid #006a6a;
       padding: 0rem;
       margin-left: 0.8rem;
     }
@@ -16,64 +15,116 @@
     }
     
     .container{
+      
       margin-left: 1rem;
       width: 600px;
-      
+      padding: auto;
+      width: auto;
+      border: 10px solid #b1cada;
+          
     }
 
      .subtittle{
       font-size: 1.6rem;
       font-weight: 500;
+      background-color: #3C77A8;
+      align-items: center;
+      background-image: linear-gradient(to top, #3C50A8, #3C77A8);
+      justify-content: center;
+      padding: 20px;
+      color: #fcfce2;
+      display: flex;
+      flex-direction: row;
      }
+
+    .header{
+      background-color: #3C77A8;
+      align-items: center;
+      background-image: linear-gradient(to top, #3C50A8, #3C77A8);
+      justify-content: center;
+      padding: 20px;
+      color: #fcfce2;
+      display: flex;
+      flex-direction: row;    
+
+    }
+    #pic{
+    width: 29%;
+    border-radius: 50%;
+    border: 10px solid #FFD448;
+    }
+
+    .container2{
+      margin: 80px;
+      display: flex;
+      flex-direction: column;
+    }
+    .text{
+      background-color: #3C77A8;
+      align-items: center;
+      background-image: linear-gradient(to top, #fcd443, #fce187);
+      padding: 20px;
+      display: flex;
+      flex-direction: row;
+    }
+
+
+     
   </style>
 
   <div class="container">
-    <h1>Enzo Christian Roosch Queiroz</h1>
-    <h2>Título: Desenvolvedor back-end Python</h2>
-
-    <div class="subtittle">
-      Contato:
-    </div>
-    
-    <div>
-      <ul>
-        <li>Linkedin : <a href="https://www.linkedin.com/in/enzo-roosch-queiroz">www.linkedin.com/in/enzo-roosch-queiroz</a></li>
-        <li>Telefone : <a href="https://youtu.be/rqJCURNQaIM?si=VMdrBnGaXozYVaX9">(11) 99153-7562</a></li>
-       <li>Email : <a href="enzoroosch@gmail.com">enzoroosch&#64;gmail.com</a></li>
-        <li>Github: <a href="https://github.com/enzorooschqueiroz">https://github.com/enzorooschqueiroz</a> </li>
-
-      </ul>
+    <div class="header">
+      <img src="../assets/WhatsApp Image 2024-03-05 at 08.04.04.jpeg" id="pic">
+      <div class="container2">
+        <h1>Enzo Christian Roosch Queiroz</h1>
+        <h2>Título: Desenvolvedor back-end Python</h2>
+  
+        <div>
+         Contato:
+        </div>
+      
+        <div>
+           <ul>
+            <li>Linkedin : <a href="https://www.linkedin.com/in/enzo-roosch-queiroz" style="color: #FFD448;" target="_blank">www.linkedin.com/in/enzo-roosch-queiroz</a></li>
+            <li>Telefone : <a href="https://youtu.be/rqJCURNQaIM?si=VMdrBnGaXozYVaX9" style="color: #FFD448;">(11) 99153-7562</a></li>
+            <li>Email : <a href="enzoroosch@gmail.com" style="color: #FFD448;">enzoroosch&#64;gmail.com</a></li>
+            <li>Github: <a href="https://github.com/enzorooschqueiroz" style="color: #FFD448;" target="_blank">https://github.com/enzorooschqueiroz</a> </li>
+  
+          </ul>
+          </div>
+      </div>
+      
     </div>
     <div class="subtittle">
       Resumo:
     </div>
-    <br>
-    <div>
+    <div class="text">
       Estudante de Análise e desenvolvimento de sistemas, com foco em segurança da informação e
       desenvolvimento web, sou eficiente trabalhando em grupo mas consigo trabalhar bem sozinho.
     </div>
-    <br>
     <div class="subtittle">
       Experiência:
     </div>
-    <br>
-    <div>
-      Título: Tecnico de Hardware:
-    </div>
-    <div>
-      Funções: <ul>
-        <li>Instalação de Sistemas operacionais</li>
-        <li>Instalação SSD</li>
-        <li>Instalação Memória RAM</li>
-        <li>Geração de relatórios operacionais</li>
-
-      </ul>
+    <div class="text">
+      <div>
+        Título: Tecnico de Hardware:
+      </div>
+      <div>
+        Funções: <ul>
+          <li>Instalação de Sistemas operacionais</li>
+          <li>Instalação SSD</li>
+          <li>Instalação Memória RAM</li>
+          <li>Geração de relatórios operacionais</li>
+  
+        </ul>
+      </div>
     </div>
     <div class="subtittle">
       Tecnologias:
     </div>
     <div>
-      <ul>
+      <div class="text">
+        <ul>
         <li>Python </li>
         <li>Html</li>
         <li>CSS</li>
@@ -81,12 +132,13 @@
         <li>Pacote Office</li>
 
       </ul>
+      </div>
     </div>
     <div class="subtittle">
       Escolaridade:
     </div>
-    <br>
-    <div class="bold">
+    <div class="text">
+      <div class="bold">
       <b>Graduação - FATEC</b>
     </div>
     <div>
@@ -97,4 +149,6 @@
       </ul>
     </div>
   </div>
+    </div>
+    
 </body>
